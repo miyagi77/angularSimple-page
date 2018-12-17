@@ -1,0 +1,32 @@
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+[4mRunning "copy:styles" (copy) task[24m
+Copied 1 file
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2018-01-28 14:52:22 UTC+8)
+loading tasks               265ms  ████████████████████████████ 81%
+loading grunt-contrib-copy   31ms  ████ 9%
+copy:styles                  16ms  ██ 5%
+Total 328ms
+
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:livereload" (connect) task[24m
+Started connect web server on http://localhost:9000
+
+[4mRunning "watch" task[24m
+Waiting...
+/c/nodejs/node_global/grunt: line 14: 10824 Hangup                  node "$basedir/node_modules/grunt/bin/grunt" "$@"
